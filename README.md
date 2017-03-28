@@ -15,8 +15,8 @@ Project using laravel framework to build core
             - register:auth/register
             - reset:auth/password/reset
         2. backend:
-            Manage User: backend/user
-            Manage Role: backend/roles 
+            - Manage User: backend/user
+            - Manage Role: backend/roles 
     6. Laravel Debug
             
    
