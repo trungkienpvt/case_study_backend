@@ -10,13 +10,13 @@ Project using laravel framework to build core
     - Admin LTE2 template
     - User module
         + authenticate:
-                login: auth/login
-                logout: auth/logout
-                register:auth/register
-                reset:auth/password/reset
+            login: auth/login
+            logout: auth/logout
+            register:auth/register
+            reset:auth/password/reset
         + backend:
-                Manage User: backend/user
-                Manage Role: backend/roles 
+            Manage User: backend/user
+            Manage Role: backend/roles 
     - Laravel Debug
             
    
