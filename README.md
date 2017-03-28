@@ -67,3 +67,5 @@ Project using laravel framework to build core
     
 * Laravel laravel-responsecache
     - repo: https://github.com/spatie/laravel-responsecache
+* Entrust
+    - link refer: http://itsolutionstuff.com/post/laravel-52-user-acl-roles-and-permissions-with-middleware-using-entrust-from-scratch-tutorialexample.html
