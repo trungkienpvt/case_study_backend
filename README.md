@@ -4,20 +4,20 @@ Project using laravel framework to build core
 ### Main Features ###
 
 * Version 1
-    1. Laravel core
-    2. Laravel module package
-    3. Laravel Repositories package
-    4. Admin LTE2 template
-    5. User module
-        authenticate:
+    - Laravel core
+    - Laravel module package
+    - Laravel Repositories package
+    - Admin LTE2 template
+    - User module
+        + authenticate:
                 login: auth/login
                 logout: auth/logout
                 register:auth/register
                 reset:auth/password/reset
-        backend:
+        + backend:
                 Manage User: backend/user
                 Manage Role: backend/roles 
-    5. Laravel Debug
+    - Laravel Debug
             
    
 
