@@ -14,5 +14,9 @@ if (! App::runningInConsole()) {
         'uses' => 'PageController@homepage',
         'as' => 'homepage',
     ]);
+    $router->get('/lessons', [
+            'uses' => 'LessonController@index',
+            'as' => 'lessons',
+        ]);
 
 }
