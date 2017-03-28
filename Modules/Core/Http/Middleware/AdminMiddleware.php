@@ -53,7 +53,7 @@ class AdminMiddleware
             $this->session->put('url.intended', $this->request->url());
 
             // Redirect to the login page
-            return $this->redirect->route('login');
+            return $this->redirect->route('auth/login');
         }
 
         // Check if the user has access to the dashboard page

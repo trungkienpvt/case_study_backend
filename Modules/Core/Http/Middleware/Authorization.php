@@ -22,6 +22,7 @@ class Authorization
      */
     public function __construct(Authentication $auth)
     {
+
         $this->auth = $auth;
     }
 
@@ -51,7 +52,7 @@ class Authorization
             return response('Unauthorized.', Response::HTTP_UNAUTHORIZED);
         }
         if (! $request->user()) {
-            return redirect()->guest('login');
+            return redirect()->guest('auth/login');
         }
 
         flash()->error(trans('core::core.permission denied', ['permission' => $permission]));
